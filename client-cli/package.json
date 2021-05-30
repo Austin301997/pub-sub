@@ -1,0 +1,23 @@
+{
+  "name": "CLI-Client",
+  "version": "1.0.0",
+  "description": "app that store key value pair and user can subcribe to changes",
+  "main": "bin/get.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "austin.dsouza1997@gmail.com",
+  "license": "ISC",
+  "bin": {
+    "getvalue": "./bin/get.js",
+    "setvalue": "./bin/set.js",
+    "watchvalue": "./bin/watch.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io-client": "^4.1.2"
+  }
+}
