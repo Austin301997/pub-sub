@@ -1,18 +1,19 @@
 # pub-sub application
-# Server set up
+
+## Server set up
 cd server/
-# install dependency
+## install dependency
 npm i
-# start server
+## start server
 npm start
 
-# Server set up
+## Server set up
 cd client-cli/
-# install dependency
+## install dependency
 npm i
-# install the cli
+## install the cli
 npm install -g .
-# commands
+## commands
 getvalue keyname
 setvalue keyname keyvalue
 watchvalue
