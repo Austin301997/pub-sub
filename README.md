@@ -7,7 +7,7 @@ npm i
 ## start server
 npm start
 
-## Server set up
+## CLI Client set up
 cd client-cli/
 ## install dependency
 npm i
