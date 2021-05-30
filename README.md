@@ -14,6 +14,6 @@ npm i
 ## install the cli
 npm install -g .
 ## commands
-getvalue keyname
-setvalue keyname keyvalue
+getvalue keyname <br />
+setvalue keyname keyvalue <br />
 watchvalue
