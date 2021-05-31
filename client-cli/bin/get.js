@@ -2,7 +2,6 @@
 
 const process = require('process');
 const axios = require('axios');
-//const url = "https://developer.okta.com/blog/2019/06/18/command-line-app-with-nodejs";
 const url = "http://localhost:5000/";
 
 if (process.argv[2]) {
